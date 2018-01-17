@@ -1,0 +1,834 @@
+@media only screen and (max-width: 1550px) {
+    nav ul li{
+    margin-right: 74px;
+    font-size: 28px;
+    }
+    nav{
+    margin: 0% 9%;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+    .wrapper{
+        width: 1100px;
+        overflow: hidden;
+    }
+    
+    nav ul li{
+    font-size: 26px;
+    margin-right: 60px;
+    }
+    
+    .art-cat-s{
+        width: 40%;
+    }
+    
+    .s-art-name h2{
+        margin-top: 180px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .like p{
+        font-size: 18px;
+    }
+    
+    .editor-nav{
+        padding-right: 320px;
+    }
+
+}
+
+@media only screen and (max-width : 1224px) {
+    .wrapper{
+        width: 1050px;
+    }
+    
+    nav ul li{
+    font-size: 24px;
+    margin-right: 50px;
+    }
+    
+    nav{
+    margin: 0% 8%;
+    }
+    
+    .main-art {
+        width: 95%;
+    }
+    
+   
+    .big-art{
+        height: 400px;
+    }
+    .small-art{
+        height: 200px;
+    }
+    
+    .s-art-name h2{
+        margin-top: 130px;
+    }
+    
+    .cat-art-name h2{
+        margin-top: 160px;
+    }
+    
+    .big-art-name h2{
+        margin-top: 290px
+    }
+    
+    .cat-art{
+        width: 31%;
+        height: 230px;
+    }
+    
+    article{
+        margin-left: 20px;
+    }
+    
+    article p{
+    font-size: 24px;
+    }
+    
+    article h1{
+        font-size: 25px
+    }
+    .comments-h2,
+    .likes,
+    .comments,
+    .comments-review{
+        margin-left: 20px;
+    }
+    
+    .editor-nav{
+        padding-right: 300px;
+    }
+}
+
+
+
+@media only screen and (max-width : 1050px) {
+    
+    nav ul li{
+    font-size: 22px;
+    margin-right: 40px;
+    }
+    
+    nav img{
+    height: 100px;
+    width: 18%;
+    margin-top: 10px;
+    }
+    
+    .wrapper{
+        width: 880px;
+        
+    }
+    .other-art,
+    .main-art {
+        width: 92%;
+    }
+    
+   .other-art{
+       width: 90%;
+       height: 200px;
+    }
+    .s-art-name h2{
+        font-size: 14px
+    }
+
+    .art-cat-small{
+        font-size: 15px;
+    }
+    
+    .art-cat-big{
+        font-size: 15px;
+        width: 30%
+    }
+    
+    .other-art h2{
+        margin-top: 125px;
+    }
+    
+    .main-art{
+        margin-top: 0;
+    }
+    
+    .cat-art{
+        width: 31%;
+        height: 180px;
+        margin-left:10px;
+    }
+    
+    .cat-art-name h2{
+        font-size: 15px;
+        margin-top: 120px;
+    }
+    
+    article p{
+        font-size: 22px;
+    }
+    .likes h2{
+        width: 50%;
+        font-size: 18px;
+    }
+    
+    .like{
+        width: 40%
+    }
+    
+    .aside-art{
+        width: 100%;
+        height: 150px;
+    }
+    
+    .aside-art-name h2{
+        margin-top: 80px;
+        font-size: 12px;
+    }
+    
+    .admin-nav ul li{
+        margin: 12px 29px;
+    }
+    
+    .modal {
+	width: 100%;
+    }
+    
+    .modal-content {
+    width: 50%;
+    }
+    
+    .editor-nav{
+        padding-right: 240px;
+    }
+    
+}
+
+@media only screen and (max-width : 880px) {
+     nav{
+    margin: 0% 6%;
+    }
+    
+    nav ul li{
+    font-size: 22px;
+    margin-right: 28px;
+    }
+    
+    .wrapper{
+        width: 780px;
+    }
+    
+    .main-art {
+        height: 400px
+    }
+    .big-art{
+        height: 350px;
+    }
+    .small-art{
+        height: 175px;
+    }
+    
+    .s-art-name h2{
+        margin-top: 110px;
+    }
+    
+    .big-art-name h2{
+        margin-top: 240px
+    }
+    
+    .art-cat-s{
+        font-size: 13px;
+    }
+    
+    .other-art{
+        width: 95%
+    }
+    
+    .footer-left img{
+        height: 150px;
+    }
+    
+    .footer-right{
+        height: 150px;
+        margin-top: 40px;
+    }
+    
+    .cat-art{
+        width: 32%;
+        height: 160px;
+    }
+    
+    .cat-art-name h2{
+        font-size: 14px;
+        margin-top: 105px;
+    }
+    
+    .article-details span{
+        font-size: 17px;
+    }
+    
+    .admin-nav ul li{
+        margin: 12px 23px;
+    }
+    
+    #modal-article .modal-content {
+        width: 60%;
+    }
+    
+    .editor-nav{
+        padding-right: 230px;
+    }
+    
+}
+
+@media only screen and (max-width : 800px) {
+    header{
+    height: 100px;
+    
+    }
+    header nav{
+    margin: 0% 2%;
+    }
+    
+    nav img{
+        width: 70%;
+    }
+    .wrapper{
+        width: 660px;
+    }
+    nav img{
+        width: 30%;
+    
+    }
+    
+    #ham{
+        display: block;
+        float: right;
+        margin-top: 40px;
+    }
+            
+   .menu{
+        display: none;
+        width: 100%;
+        padding: 0;
+        margin:0 0 20px 0; 
+    }
+    
+        
+    header nav ul li{
+        display: block;
+        width: 100%;
+        height: 42px;
+        text-align: center;
+        border: 2px solid;
+        box-shadow: 0 4px 3px #778899;
+        margin:0 auto;
+    }
+    
+    header nav ul li a{
+        padding-top: 4px;
+    }
+    
+    header nav ul li:hover {
+        background-color:blue;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    
+    .dropdown{
+        display: block;
+        position: static;
+        
+    }
+    
+    .main-art{
+        width: 100%;
+        height: 650px;
+    }
+    
+    .small-art{
+        width: 50%;
+        
+    }
+    
+    .big-art{
+        width: 100%;
+        margin-bottom: 10px;
+        float: none;
+    }
+    
+    .art-cat-s{
+        font-size: 15px;
+    }
+    
+    .other-art{
+        width: 98%;
+        
+    }
+    
+    .art-cat-small{
+        font-size: 12px;
+        height: 15px;
+    }
+    
+    .footer-left img{
+        height: 110px;
+    }
+    .footer-right p,
+    .footer-right h3{
+        font-size: 20px;
+    }
+    
+    .cat-art{
+        width: 49%;
+        height: 190px;
+        margin-left:5px; 
+    }
+    
+    .cat-art-name h2{
+        font-size: 15px;
+        margin-top: 120px;
+    }
+    
+    article{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    aside{
+        float: none;
+        width: 100%;
+        border-bottom: 2px solid;
+    }
+    
+    .comments-h2,
+    .likes,
+    .comments,
+    .comments-review{
+        width: 100%;
+        margin: 0 auto;
+         margin-bottom: 20px;
+    }
+    
+    .admin-nav ul li{
+        margin: 10px 13px;
+    }
+    
+    #modal-article .modal-content {
+        width: 65%;
+    }
+    
+    .editor-nav{
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (max-width : 690px) {
+    .wrapper{
+        width: 560px;
+    }
+     nav img{
+        width: 40%
+    }
+    
+    .other-art{
+        height: 170px;
+    }
+    .score-art h1,
+    .new-art h1{
+       margin-bottom: 10px;
+        font-size: 28px
+    }
+    
+    .other-art h2{
+        font-size: 12px;
+    }
+    
+    .other-art span{
+        width: 40%     
+    }
+    
+    article p{
+        font-size: 20px;
+    }
+    
+    .comment-form textarea{
+        width: 100%;
+    }
+    
+    .admin-nav ul li{
+        margin: 8px 4px;
+    }
+    
+    th,td{
+        font-size:18px;
+        padding: 8px;
+    }
+    
+    .modal-content {
+    width: 60%;
+    }
+    
+    #modal-article .modal-content {
+        width: 80%;
+    }
+    
+    .editor-nav{
+        padding-right: 160px;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .wrapper{
+        width: 480px;
+    }
+    .big-art{
+        height: 280px;
+    }
+    
+    .big-art-name h2{
+        margin-top:180px;
+        font-size: 20px;
+    }
+    
+    .small-art{
+        float: none;
+        width: 100%;
+        height: 280px;
+        margin-bottom: 10px;
+    }
+    
+    .main-art{
+        height: 890px
+    }
+    
+    .score-art,
+    .new-art{
+        float: none;
+        width: 100%
+    }
+    
+    .score-art h1,
+    .new-art h1{
+        font-size: 30px
+    }
+    
+    .other-art{
+        width: 80%;
+        height: 250px;
+    }
+    .small-art-name h2{
+        margin-top: 160px;
+        font-size: 19px;
+    }
+    
+    .art-cat-small{
+        font-size: 14px;
+        height: 15px;
+        width: 15%;
+    }
+    
+    .art-cat-s{
+        width: 30%;
+    }
+    
+    .cat-art{
+        width: 100%;
+        float: none;
+        height: 250px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    
+    .cat-art-name h2{
+        font-size: 18px;
+        margin-top: 180px;
+    }
+    
+    .likes h2{
+        margin-right: 5px;
+    }
+    .admin-nav{
+        width: 50%;
+        height: 180px;
+    }
+    
+    .admin-nav ul{
+        border: none;
+        margin: 0 auto;
+    }
+    .admin-nav nav ul li {
+        width: 100%;
+        height: 32px;
+        text-align: center;
+        border: 2px solid;
+        box-shadow: 0 4px 3px #778899;
+        margin:0 auto;
+        margin-top:5px;
+    }
+    
+    .admin-nav nav ul li a{
+        display: block;
+        padding-top: 4px;
+    }
+    
+    .admin-nav nav ul li:hover {
+        background-color:blue;
+    }
+    
+    th,td{
+        font-size:15px;
+        padding: 6px;
+    }
+    
+    .modal-content {
+        width: 70%;
+    }
+    
+    #modal-article .modal-content {
+        width: 95%;
+    }
+    
+    .editor-nav{
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+    
+}
+
+@media only screen and (max-width : 500px) {
+    .wrapper{
+        width: 380px;
+    }
+    
+     nav img{
+        width: 50%
+    }
+    
+    .main-art{
+        height: 710px
+    }
+    
+    .big-art{
+        height: 230px
+    }
+    .big-art-name h2{
+        margin-top: 120px;
+    }
+    
+    .small-art-name h2{
+        margin-top: 125px;
+        font-size: 15px;
+    }
+    
+    .s-art-name h2{
+        margin-top: 120px;
+    }
+    
+    .small-art{
+        height: 220px
+    }
+    
+    .other-art{
+        width: 90%;
+        height: 200px;
+    }
+    
+    .art-cat-small,
+    .art-cat-big{
+        display: none;
+    }
+    .cat-art{
+        height: 230px;   
+    }
+    
+    .cat-art-name h2{
+        margin-top: 150px;
+        font-size: 18px;
+    }
+    
+    article p{
+        font-size: 15px;
+    }
+    
+    .article-details span{
+        font-size: 14px;
+    }
+    
+    .comment-form{
+        font-size: 13px;
+    }
+    
+    .comments-review{
+        font-size: 15px;
+    }
+    
+    .like{
+        width: 100%;
+    }
+    
+    .like p{
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .likes h2{
+        float: none;
+        width: 100%;
+        padding-top: 60px;
+        font-size: 21px;
+        text-align: center;
+    }
+    .comment-btn{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+     .admin-nav{
+         width: 100%;
+    }
+    
+    .btn-upload-img,
+    .btn-objavi{
+        width: 100%
+    }
+    
+    .admin-content h2{
+        font-size: 32px;
+    }
+    
+    th,td{
+        font-size:15px;
+        padding: 4px;
+    }
+    
+    .modal-content {
+        width: 80%;
+    }
+    
+    
+}
+
+@media only screen and (max-width : 400px) {
+    .wrapper{
+        width: 280px;
+    }
+    
+    nav img{
+        height: 82px;
+    }
+    
+    .main-art{
+        height:520px; 
+    }
+    
+    .big-art-name h2{
+        font-size: 15px;
+        margin-top: 100px;
+    }
+    
+    .small-art-name h2{
+        font-size: 12px;
+    }
+    .big-art,
+    .small-art,
+    .other-art{
+        height: 160px;
+    }
+    
+    .small-art-name h2{
+        font-size: 11px;
+        margin-top: 100px;
+    }
+    
+    .footer-left{
+        float: none;
+        margin: 0 auto;
+        width: 80%
+    }
+    .footer-right{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .cat-section h1{
+        font-size: 40px;
+    }
+    
+    .cat-art{
+        height: 170px;   
+    }
+    
+    .cat-art-name h2{
+        margin-top: 100px;
+        font-size: 14px;
+    }
+    
+    article h1{
+        font-size: 18px;
+    }
+    
+    article p{
+        font-size: 14px;
+        margin:5px 2px;
+    }
+    
+    .article-details span{
+        font-size: 11px;
+    }
+    
+    th,td{
+        font-size:13px;
+    
+    }
+    
+    
+    .modal-content {
+        width: 90%;
+    }
+    
+    #modal-article .modal-content {
+        width: 98%;
+    }
+    
+}
+
+
+@media only screen and (max-width : 300px) {
+    .wrapper{
+        width: 230px;
+    }
+    .cat-art,
+    .big-art,
+    .small-art,
+    .other-art{
+        height: 140px;
+        width: 100%;
+    }
+    .cat-art-name h2,
+    .big-art-name h2{
+        font-size: 12px;
+        margin-top: 80px;
+    }
+    
+    th,td{
+        font-size:10px;
+
+    }
+    
+    .modal-content {
+        width: 98%;
+    }
+    
+    #modal-article .modal-content {
+        width: 100%;
+    }
+    
+
+    
+    
+}
