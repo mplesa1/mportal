@@ -1,6 +1,7 @@
 # mportal
 
 Web aplikacija za objavljivanje i uređivanje članaka, login/registracija korisnika, komentiranje i lajkanje članaka. 
+
 Admin sučelje: 
               -objavljivanje novih i uređivanje postojećih članaka 
               -dodavanje i administracija kategorija članaka 
