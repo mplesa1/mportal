@@ -6,7 +6,7 @@
 		</div>
 		<div class="modal-body">
 			<form class="modal-form" id="reg-form" onsubmit = "return false">
-				<div id="msg_reg" class="msg-0"></div> 
+				<div id="msg-reg" class="msg-0"></div> 
 				<div class = "m-row">
 					<div id = "login-notice"></div>
 				</div>
