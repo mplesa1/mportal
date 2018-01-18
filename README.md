@@ -2,13 +2,14 @@
 
 Web aplikacija za objavljivanje i uređivanje članaka, login/registracija korisnika, komentiranje i lajkanje članaka. 
 
-Admin sučelje: 
+# Admin sučelje: 
               -objavljivanje novih i uređivanje postojećih članaka 
               -dodavanje i administracija kategorija članaka 
               -dodavanje i administracija rola editora 
               -administracija korisnika
+              -editor mogućnost dodavanja i uređivanja članaka samo za kategorije članaka koje ima dodjeljenje 
 
-#UPUTE
+# UPUTE
 1. Važno je da imate instaliran xampp, wampp ili neki drugi lokalni server sa MySQL-om
 2. U browser upišite localhost/phpmyadmin
 3. U phpmyadminu kliknite na new, tamo gdje piše Database name upišite "mportal",
@@ -18,3 +19,11 @@ Admin sučelje:
 6. Kliknite Go i baza ce biti stvorena
 7. Nakon toga u folderu xammpa pronadite folder "htdocs", te u njega kopirajte cijeli folder "mportal" 
 8. Otvorite browser, u adresnu traku upišite "localhost/mportal" i aplikacija ce Vam biti dostupna
+
+# ADMIN USER
+Email: admin@admin.com 
+Lozinka: admin@admin.com
+
+# EDITOR USER
+Email: pero@pero.com 
+Lozinka: pero@pero.com 
