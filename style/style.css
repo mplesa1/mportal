@@ -774,6 +774,16 @@ tr:hover{
   
 }
 
+.btn-role{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
 
 .msg-0{
      color: red;

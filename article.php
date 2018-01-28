@@ -109,8 +109,10 @@
         </div>
         <div class="wrapper">
             <div class="likes" id="likes">
-                <a class="like btn" onclick="like('<?php echo $id_a; ?>')"><p>Sviđa mi se članak</p></a>
+                <a class="like btn" id="btn-like" onclick="like('<?php echo $id_a; ?>')"><p>Sviđa mi se članak</p></a>
+            <span id="span-like">
                 <h2 id="number-likes">Ukupno "sviđa mi se članak" : <?php echo $likes ?></h2>
+            </span>
             </div>
             <hr>
 <?php 

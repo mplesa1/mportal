@@ -1,33 +1,34 @@
 <div id="modal-editor" class="modal">
 	<div class="modal-content">
 		<div class="modal-header">
-			<span class="close" id="close-login" onclick="closeEditor()">&times;</span>
-			<h2>Promjena role editora</h2>
+			<span class="close" id="close-login" onclick="closeRole()">&times;</span>
+			<h2>Dodaj rolu editoru</h2>
 		</div>
 		<div class="modal-body">
 			<form class="admin-form modal-form">
+                <div id="msg-role" class="msg-0"></div>
                 <div class="m-row">
-                    <label for="l_username">Username</label>
-                    <input type="text" name="username" id="username">
+                    <label for="select_editors">Izaberite editora:</label>
+                    <select name="select_editors" id="select_editors">
+                        <option selected disabled>Izaberite editora</option>
+<?php 
+    $sql_selected = "SELECT * FROM user WHERE fk_id_r = 2";
+    $stmt_selected = $db->prepare($sql_selected);
+    $stmt_selected->execute();
+    $result_selected = $stmt_selected -> fetchAll(PDO::FETCH_OBJ);
+    foreach ($result_selected as $res){
+        $id_u = $res -> id_u;
+        $username = $res -> username; 
+?>
+                        <option id="option_editor" value="<?= $id_u; ?>" onclick="refreshCat('<?= $id_u; ?>')"><?= $username;?></option>
+<?php } ?>
+                    </select>
                 </div>
-                <div class="m-row row-check">
-                    <p>Sport</p>
-                    <input class="checkbox" type="checkbox" value="Sport">
-                </div>
-                <div class="m-row row-check">
-                    <p>Tehnologija</p>
-                    <input class="checkbox" type="checkbox" value="Tehnologija" checked>
-                </div>
-                <div class="m-row row-check">
-                    <p>Povijest</p>
-                    <input class="checkbox" type="checkbox" value="Povijest" checked>
-                </div>
-                <div class="m-row row-check">
-                    <p>Avantura</p>
-                    <input class="checkbox" type="checkbox" value="Avantura" checked>
+                <div class="m-row" id="div-cat-editor">
+                    
                 </div>
                 <div class="m-row">
-                    <a class="btn-objavi btn">Izmjeni</a>
+                    <a class="btn-role btn" id="btn-add-role">Dodaj rolu</a>
                 </div>
             </form>
 		</div>

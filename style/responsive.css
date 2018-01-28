@@ -302,6 +302,9 @@
         width: 30%;
     
     }
+    .welcome{
+        right: 5px;
+    }
     
     #ham{
         display: block;
@@ -338,9 +341,13 @@
     }
     
     .dropdown{
-        display: block;
+        display: none;
         position: static;
         
+    }
+
+    #menu li ul{
+        display: none;
     }
     
     .main-art{

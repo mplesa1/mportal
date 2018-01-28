@@ -1,64 +1,10 @@
-//DROPDOWN
+//DROPDOWN 
 $(document).ready(function () {
-    $('#drop').click(function (e) {
-        $('#dropdown').stop(true).slideToggle();
-    });
-    $(document).click(function (e) {
-        if (!$(e.target).closest('#drop, #dropdown').length) {
-            $('#dropdown').stop(true).slideUp();
-        }
-    });
+   $('#menu li a').click(function (e) {
+       $(this).parent().find('ul').slideToggle();
+    }); 
 });
-function dropdown(id){
-    var drop = "#drop" + id;
-    var dropdown = "#dropdown" + id;
-    $(drop).click(function (e) {
-        $(dropdown).stop(true).slideToggle();
-    });
-    $(document).click(function (e) {
-        if (!$(e.target).closest(drop, dropdown).length) {
-            $(dropdown).stop(true).slideUp();
-        }
-    });
-}
 
-/*
-function dropdown(id){
-    var drop = "#drop" + id;
-    var dropdown = "#dropdown" + id;
-    $(dropdown).slideDown('slow');
-  
-    $(dropdown).mouseleave(function () {
-     $(dropdown).slideUp('slow');
-    });
-}*/
-
-
-   /* 
-    $(document).click(function (e) {
-        if (!$(e.target).closest('.drop_s, .dropdown_s').length) {
-            $('.dropdown_s').stop(true).slideUp('slow');
-        }
-    });
-*/
-
-/*
-$(document).ready(function () {
-var winIsSmall;
-
-    function testWinSize(){
-        winIsSmall= $(window).width() <= 800; // BOOLEAN
-    }
-    
-    $(window).on("load resize", testWinSize);
-
-    $('#ham').click(function () {            
-        if(winIsSmall){
-            $("#menu").fadeToggle(500)
-        }
-    });
-
-});*/
 
 //NAV MOBILE
     $(document).ready(function () {
@@ -69,9 +15,7 @@ var winIsSmall;
 
 
 
- 
-
-//////////MODALS OPEN///////////////
+//////////MODALS REG LOGIN
 
 function openLogin() {
     document.getElementById("modal-login").style.display = "block";
@@ -88,6 +32,76 @@ function openReg() {
 function closeReg() {
     document.getElementById("modal-reg").style.display = "none";
 }
+
+//REGISTER AJAX
+function register(){
+    var usernameV = $("#username").val();
+    var emailV = $("#email").val();
+    var pwdV = $("#pwd").val();
+    var pwd_repeatedV = $("#pwd_repeated").val();
+
+    $.ajax ({
+        type:"POST",
+        url: 'actions/register.php',
+        data: {
+            username: usernameV,
+            email: emailV,
+            pwd: pwdV,
+            pwd_repeated: pwd_repeatedV
+        },
+        success: function(data){
+            $('#msg_reg').text(data);
+           
+            if (data == "Registracija je uspjela, sada se možete prijaviti!"){
+               $("#msg-reg").removeClass("msg-0").addClass("msg-1");
+               $('#reg-form')[0].reset();
+                setTimeout(closeReg, 2000);
+                setTimeout(openLogin, 0);
+            }  
+        }
+    });
+}
+
+
+
+//LOGIN AJAX
+function login(){
+    var emailV = $("#email_l").val();
+    var pwdV = $("#pwd_l").val();
+    $.ajax ({
+        type:"POST",
+        url: 'actions/login_action.php',
+        data: {
+            email: emailV,
+            pwd: pwdV
+        },
+        success: function(data){
+            $('#msg-login').text(data);
+            if (data == "Uspješno ste se prijavili!"){
+               $("#msg-login").removeClass("msg-0").addClass("msg-1");
+               $('#login-form')[0].reset();
+                setTimeout(closeLogin, 2000);
+                window.location.reload('nav');
+            }  
+        }
+    });
+}
+
+//LOGOUT
+$('.logout').click(function (event) {
+    if (confirm('Jeste li sigurni da se želite odjaviti?')) {
+        $.ajax({
+            type: "POST",
+            url: 'actions/logout.php',
+            data: {
+                // data stuff here
+            },
+            success: function () {
+               window.location.reload();
+            }
+        });
+    }
+});
 
 
 
@@ -288,14 +302,73 @@ function closeUser() {
     $("#msg-user").removeClass("msg-1").addClass("msg-0");
 }
 
-
-function openEditor() {
+//EDITOR ADMIN
+function openRole() {
     document.getElementById("modal-editor").style.display = "block";
+    document.getElementById("btn-add-role").addEventListener("click", roleAdd, false);    
 }
 
-function closeEditor() {
-    document.getElementById("modal-editor").style.display = "none";
+function roleAdd(){
+    var id_u = $("#select_editors").val();
+    var id_cat = $("#select_cat").val();
+    $.ajax ({
+        type:"POST",
+        url: 'actions/role_add.php',
+        data: {
+            id_u: id_u,
+            id_cat: id_cat
+        },
+        success: function(data){
+            $('#msg-role').text(data);
+            if (data == "Rola je uspješno dodana !"){
+               $("#msg-role").removeClass("msg-0").addClass("msg-1");
+                setTimeout(closeRole, 1000) 
+                refreshContent('includes/page_content/roleEditor.php', 'admin-content');
+            }
+        }
+    });
 }
+
+function refreshCat(id_u){
+        $.ajax({  
+                url:"actions/refresh_cat.php",  
+                method:"POST",  
+                data:{
+                    id_u: id_u
+                },  
+                success:function(data){
+                     $('#div-cat-editor').html(data);  
+                }  
+           });  
+}
+
+function closeRole() {
+    document.getElementById("modal-editor").style.display = "none";
+    document.getElementById("btn-add-role").removeEventListener('click', roleAdd , false );
+    $("#msg-role").text("");
+    $("#msg-role").removeClass("msg-1").addClass("msg-0");
+    $("#modal-editor").load(location.href + " #modal-editor>*", "");
+}
+
+function deleteRole(id_re, event){
+    if (confirm('Jeste li sigurni da se želite odjaviti?')) {
+        $.ajax ({
+            type:"POST",
+            url: 'actions/delete_role.php',
+            data: {
+                id_re: id_re
+            },
+            success: function(data){
+                    alert(data);
+                if (data == 'Rola je trajno izbrisana, ako želite ponovno dodati rolu editoru pritisnite "Dodaj rolu +"  !') {
+                    refreshContent('includes/page_content/roleEditor.php', 'admin-content');
+                }
+            }
+        });
+    }
+}
+
+
 
 // Get the modal
 var modal =document.getElementsByClassName('modal')[0];
@@ -341,75 +414,7 @@ function refreshContent(url, sectionID){
 }
 
 
-//REGISTER AJAX
-function register(){
-    var usernameV = $("#username").val();
-    var emailV = $("#email").val();
-    var pwdV = $("#pwd").val();
-    var pwd_repeatedV = $("#pwd_repeated").val();
 
-    $.ajax ({
-        type:"POST",
-        url: 'actions/register.php',
-        data: {
-            username: usernameV,
-            email: emailV,
-            pwd: pwdV,
-            pwd_repeated: pwd_repeatedV
-        },
-        success: function(data){
-            $('#msg_reg').text(data);
-           
-            if (data == "Registracija je uspjela, sada se možete prijaviti!"){
-               $("#msg-reg").removeClass("msg-0").addClass("msg-1");
-               $('#reg-form')[0].reset();
-                setTimeout(closeReg, 2000);
-                setTimeout(openLogin, 0);
-            }  
-        }
-    });
-}
-
-
-
-//LOGIN AJAX
-function login(){
-    var emailV = $("#email_l").val();
-    var pwdV = $("#pwd_l").val();
-    $.ajax ({
-        type:"POST",
-        url: 'actions/login_action.php',
-        data: {
-            email: emailV,
-            pwd: pwdV
-        },
-        success: function(data){
-            $('#msg-login').text(data);
-            if (data == "Uspješno ste se prijavili!"){
-               $("#msg-login").removeClass("msg-0").addClass("msg-1");
-               $('#login-form')[0].reset();
-                setTimeout(closeLogin, 2000);
-                window.location.reload('nav');
-            }  
-        }
-    });
-}
-
-//LOGOUT
-$('.logout').click(function (event) {
-    if (confirm('Jeste li sigurni da se želite odjaviti?')) {
-        $.ajax({
-            type: "POST",
-            url: 'actions/logout.php',
-            data: {
-                // data stuff here
-            },
-            success: function () {
-               window.location.reload();
-            }
-        });
-    }
-});
 
 
 //LIKE
@@ -422,7 +427,8 @@ function like(idA){
         },
         success: function(data){
                 alert(data);
-                $("#likes").load(location.href + " #likes>*", "");
+                document.getElementById("btn-like").style.display = "none";
+                $("#span-like").load(location.href + " #span-like>*", "");
         }
     });
 }
@@ -533,3 +539,68 @@ function processAjax(obj, serverPage){
     }
     xmlhttp.send(null);
 }
+
+
+
+/*
+$(document).click(function (e) {
+    if (!$(e.target).closest('ul').length) {
+        $(this).parent().find('#menu li a').slideUp();
+    }
+});
+
+/*
+$(document).ready(function () {
+    $('#menu li a').hover(function (e) {
+        if (!$(e.target).closest('ul', '#menu li a').length) {
+            $('#menu li a').stop(true).slideUp();
+        }
+    });
+});
+
+/*
+function dropdown(id){
+    var drop = "#drop" + id;
+    var dropdown = "#dropdown" + id;
+    $(drop).click(function (e) {
+        $(dropdown).stop(true).slideToggle();
+    });
+    $(document).click(function (e) {
+        if (!$(e.target).closest(drop, dropdown).length) {
+            $(dropdown).stop(true).slideUp();
+        }
+    });
+}*/
+
+/*
+function dropdown(id){
+    var drop = "#drop" + id;
+    var dropdown = "#dropdown" + id;
+    $(dropdown).slideDown('slow');
+  
+    $(dropdown).mouseleave(function () {
+     $(dropdown).slideUp('slow');
+    });
+}*/
+
+
+   /* 
+    $(document).click(function (e) {
+        if (!$(e.target).closest('.drop_s, .dropdown_s').length) {
+            $('.dropdown_s').stop(true).slideUp('slow');
+        }
+    });
+*/
+
+//DROPDOWN KORISNICI
+/*
+$(document).ready(function () {
+    $('#drop').click(function (e) {
+        $('#dropdown').stop(true).slideToggle();
+    });
+    $(document).click(function (e) {
+        if (!$(e.target).closest('#drop, #dropdown').length) {
+            $('#dropdown').stop(true).slideUp();
+        }
+    });
+});*/

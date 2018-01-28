@@ -20,11 +20,10 @@
             $stmt2 -> execute(); 
         ?>
         <li>
-            <a class="drop" id="drop<?php echo $parent_id;?>" 
-                onmouseover="dropdown('<?php echo $parent_id;?>')">
+            <a class="drop">
                 <?php echo $res-> name ; ?>
             </a>
-            <ul class="dropdown dropdown_s" id="dropdown<?php echo $parent_id;?>">
+            <ul class="dropdown dropdown_s">
             <?php 
                 $result2 = $stmt2 -> fetchAll(PDO::FETCH_OBJ);
                 foreach ($result2 as $res2){

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 17, 2018 at 03:17 PM
+-- Generation Time: Jan 29, 2018 at 12:15 AM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.10
 
@@ -49,15 +49,15 @@ CREATE TABLE `article` (
 --
 
 INSERT INTO `article` (`id_a`, `fk_id_u`, `fk_id_cat`, `title`, `description`, `content`, `foto_url`, `foto_alt`, `date_publication`, `date_last_change`, `position`, `number_likes`, `active`) VALUES
-(1, 1, 5, 'Nitko od nas ne dolazi da se uhljebi, tek smo se zagrijali i bit ćemo sve žešći!', 'Nitko od nas ne dolazi da se uhljebi, tek smo se zagrijali i bit ćemo sve žešći!', 'Gotovo je postalo predvidljivo da ćemo ga toga dana negdje pročitati, čuti ili gledati. U medijima. Dok je bio igrač, 10-ak godina kao omladinac, a onda 20 kao profesionalac, Stipe Pletikosa nije bio često u eteru. I prije nego se upustio u igre prijestolja, slavni je Splićanin ušetao u naše domove i nogometnu zbilju kroz analitiku na javnoj televiziji. Nije da smo baš iznenađeni njegovom elokventnošću, osvježavajućim stylingom talijanskog utjecaja. Pogotovo nije iznenadio odmjerenošću, kako u kritičkom. tako i pohvalnom izrazu. Pletikosa nije nikad odavao dojam prznice, upale ega i onog koji nameće stav. Respektirat će svakog, ali i time što će lakoćom uvjerenja iznijeti svoj stav...Imate li štogod novog kazati s obzirom na mnoštvo teza koje ste iznijeli u brojnim intervjuima oko HNS-ove stvari?\n- Pa novo je što je HNS-ovo vodstvo odlučilo ubrzano razriješiti pitanje predsjednika za iduće četverogodišnje razdoblje. Ne znam kako drugima, ali meni je to jasan znak da smo kao tim ljudi koji žele raditi na promjenama upravljanja hrvatskim nogometom već napravili značajnu stvar. Da su u Kući nogometa procijenili da im nismo ozbiljna konkurencija, držali bi se najava kako će izborna Skupština biti na proljeće. I ovaj trijumfalizam koji sam primijetio kod nekih aktera u Savezu čini mi se kao da je odraz brige koju imaju za svoje pozicije…', 'img/article/img_1516148125.jpeg', 'zg', '2017-11-27 13:40:00', '2018-01-17 00:15:26', 1, 25, 1),
-(2, 1, 5, 'STIŽU POJAČANJA U DINAMO', 'Tko može reći da ovo što on radi nije dobro? Pa lani su igrali Machado, Sammir..., Fernandes, a kakvi su bili rezultati?', 'Kakve su novosti u gornjem domu Maksimira? Kineska delegacija bila je nekoliko dana u Zagrebu, posjetila klub, a kad dođu kineski poslovnjaci na nogometni stadion, uvijek se razviju razna pitanja. Chengdu Sports Industry Company povezao se s Dinamom već prije mjesec i nešto dana kad je modra delegacija posjetila Kinu, razgovaralo se o omladinskoj školi, organizaciji kluba...  Sad su oni došli k nama, bili naši gosti i nema nekih novosti. Pokazali smo im našu školu, uvjete u kojima radimo, bili su na utakmici s Rudešom. Ne, nismo razgovarali ni o kakvoj vrsti sponzorstva ili nekog ulaganja, ostali smo na istim temama kao i ranije - izvijestio nas je glavni direktor Tomislav Svetina.\n\nToliko o tome, idemo na sportske aktualnosti.\n\nKako je vodstvo kluba općenito zadovoljno ovim mjesecima rada Marija Cvitanovića, rezultati su, nakon ispadanja iz Europe, odlični, prednost na ljestvici velika, no je li ispunio i onaj drugi cilj, razvoj igrača i napredak u igri?\n\n- Tko može nakon što trener i momčad nisu izgubili utakmicu u HNL-u, kad je prednost pred drugoplasiranim 12 bodova, reći da to nije dobro? O dojmu uvijek možemo pričati, može li i mora li bolje, ali opet, kad usporedimo ovu jesen s prošlom sezonom. Kad vidimo da su lani igrali Machado, Guilherme, Sammir, Fernandes..., a kakve su bile igre, pogotovo, kakvi su bili rezultati? Dakle, sve sam rekao.', 'img/article/img_1515970543.jpg', 'dinamo', '2017-12-03 08:54:42', '2018-01-14 22:56:01', 1, 5, 1),
-(8, 1, 9, 'OD PODNOŽJA DO VRHA SLJEMENA ZA 16 I POL MINUTA Pogledajte kako će izgledati nova žičara vrijedna čak 142 milijuna kuna!', 'Pripreme za gradnju nove žičare već su počele, a u Gradu planiraju i cijeli taj koridor kojim žičara prolazi urediti za rekreaciju građana', 'Start će biti na 276 metara nadmorske visine dok će gornja postaja biti na 1030 metara. Zagrepčani i turisti prevozit će se u 84 gondole, a u svaku gondolu moći će se smjestiti 10 ljudi.\n\nOd Donje do Gornje postaje na relaciji od oko 4 i pol kilometra, vozit će ukupno 16 i pol minuta. Ukupno će na trasi biti četri postaje, a prvi putnici prema najavama moći će uživati 1. kolovoza 2018. godine.\n\nUkratko, ovako u brojkama izgleda novi projekt Žičare Sljeme Zagreb čiji je idejni projekt jučer trebao biti predstavljen javnosti i za koji će se izdvojiti ukupno 142 milijuna kuna. Po onom što se moglo vidjeti, Zagreb će uistinu dobiti jednu od najmodernijih žičara u Europi. Pripreme za gradnju nove žičare već su počele, a kako je najavljivano kompletna gradnja odvijat će se u četiri faze.\n\nPrva i druga su već počele.', 'img/article/img_1515971063.jpg', 'sleme', '2017-12-24 12:48:44', '2018-01-16 18:59:54', 2, 8, 1),
-(11, 1, 14, 'Schaub: Cro Cop mi je priuštio najveće batine u životu, nakon toga sam shvatio da nisam pravi borac poput njega', 'U ožujku 2011. Brandan Schaub upisao je najveću pobjedu karijere pobjedivši Mirka Cro Cop Filipovića na UFC 128 priredbi. Za Cro Copa se radilo samo o još jednoj borbi, no za Schauba je to bio trenutak kada je prvi put počeo sumnjati u svoju strast i prednost MMA-u.', 'Nekoliko godina kasnije Schaub je odlučio završiti karijeru te je danas uspješan podcaster i komičar, no nikada neće zaboraviti susret s legendarnim hrvatskim borcem u kojem je shvatio da rizici i posljedice slobdone borbe nisu za svakoga.\n\n“Borba s Cro Copom se činila kao nužni korak. On je bio legenda i prilika da upišem veliku pobjedu”, prisjetio se Schaub borbe u intervjuu za dokumentarni serijal Retrospective. “No bio sam naivan i bahat te sam mislio kako ću ući u kavez i jednostavno ga pregaziti. Dragi bože, kako sam se prevario.”\n\n\n\nShaub je u konačnici slavo tehničkim nokautom u trećoj rundi, ali put do pobjede je imao svoju cijenu…\n\n“Slomio mi je nos na šesnaest mjesta i morao sam na operaciju. Imao sam šesnaest šavova na oku, četrnaest šavova na usni. Povraćao sam i bio u velikim bolovima.”\n\n“Nikad neću zaboraviti taj trenutak. On je stajao sav krvav, i nemojte zaboraviti da je u toj borbi bio nokautiran. Ali ja sam bio puno više razbijen, lice mi je bilo natečeno. Sjedili smo smo u backstageu. Ja sam povraćao od bolova, a njega su šivali…\n\nSve me boljelo i pogledao sam Cro Copa i rekao,’K vragu, što mi to radimo čovječe?’, a on me pogledao i odgovorio,’Ovo je život.’\n\nI tada sam se prvi put pitao,’Je li zaista tako? Je li, čovječe?’ I za njega jest. Njemu je to sve. No, za mene nije. Tada sam shvatio da nisam poput njega. Ja ne želim za ovo riskirati svoj život. Ovo nije moja strast. Njemu jest. On se još uvijek bori. On je apsolutna legenda. Meni uopće nije mjesto u oktogonu s njim. “\n', 'img/article/img_1515970830.jpg', 'crocop', '2017-12-24 23:07:36', '2018-01-14 23:00:34', 3, 1, 1),
-(12, 1, 14, 'Dosad su se naši boksači borili za strance, a sad će se boriti za Hrvatsku', 'BOKSAČKOJ ELITI U sljedećoj godini, ukupno osmoj sezoni Svjetske boksačke serije, imat ćemo svoju momčad u elitnom boksačkom natjecanju Međunarodne amaterske boksačke federacije', 'U sljedećoj godini, ukupno osmoj sezoni Svjetske boksačke serije (WSB), Hrvatska će imati svoju momčad u elitnom boksačkom natjecanju Međunarodne amaterske boksačke federacije (AIBA). Hrvati vitezovi, ili na engleskom jeziku Croatian Knights, debi će imati već početkom veljače u Italiji.\n\n- Mnogi nisu vjerovali kad su čuli za našu želju i aktivnosti po tom planu jer se radi o apsolutnom planetarnom vrhu. Međutim, uvijek ću naglasiti, nisam uspio ja ili Savez, uspjeli su naši boksači. Da njih nema, da nema njihovih uspjeha cijeli niz godina, pa onda i devet europskih i jedne svjetske medalje samo ove godine, ovakvo što ne bi bilo moguće - rekao je Bono Bošnjak, predsjednik HBS-a.\n\nSvitanje dobre priče\n\nNajveći mogući kompliment hrvatskom boksu iz Italije je odaslao Franco Falcinelli, predsjednik Europske boksačke federacije poručivši na mrežnim stranicama WSB-a:\n\n“Hrvatski vitezovi u ovo natjecanje donose sa sobom tradiciju ove velike nacije.”\n\nMalo je reći da uhu gode ovakve riječi najvišeg čovjeka europskog boksa i jednog od čelnika svjetskog.\n\n- Ovo je samo svitanje jedne dobre boksačke priče. Vjerujem da će ovo biti predstavljeno kao velik iskorak hrvatskog boksa - spomenuo je brigadni general Mladen Mikolčević, predsjednik Hrvatskih vitezova te dodao:\n\n- Dosad su se naši boksači borili u ovom natjecanju za strane momčadi od Italije preko Francuske, Velike Britanije do Kazahstana. Od sada će u ring za Hrvatsku.\n\nU dosadašnjim sezonama WSB-a pamtimo nastupe Alena Babića za Francuze, Luke Plantića i Josipa Bepa Filipija za Talijane, Hrvoja Sepa i Filipa Hrgovića za Francuze i Kazahstance, kao i Marka Čalića i Bojana Miškovića za Britance.\n\nIzbornik Leonard Pijetraj najbolje zna što znači WSB. Iza njega je petogodišnje iskustvo rada za Paris United (2 godine) te Astana Arlanse (3 godine), ali i podizanje trofeja.\n\nImamo svoje blago\n\n- Jako, jako dobro znam o kakvom se natjecanju radi. Čak sam najskeptičniji jer znam koliko je WSB zahtjevan. Naši će borci vidjeti da je velika razlika između boksanja tri ili kao u WSB-u pet rundi po tri minute. Sve vas molim da budete strpljivi - apelira izbornik, koji je glede sastava Hrvatskih vitezova spomenuo zasad tek sljedeće.\n\n- Sastav se još uvijek ne zna. Potražit ćemo strana pojačanja (Bjelorusija, Rumunjska, Bugarska) samo u nižim kategorijama, koje nam nisu toliko kvalitetno pokrivene. Ostalo ćemo imati hrvatske boksače. Možda niste znali, ali prijašnjih sezona Azerbajdžan je imao svoju momčad u WSB-u, ali sve odreda strane borce. Oni nemaju svojih boksača. Prije dvije godine Astani su u goste stigli Nijemci. Svi njihovi boksači govorili su ruski! Sve sam time rekao. Mi imamo svoje mladiće i to je naše najveće blago - naglasio je izbornik.\n\nSportski direktor HBS-a general Ante Prkačin efektno je zaključio.\n\n- Boks je najviteškiji borilački sport i zato mislim da mi Hrvati tu imamo komparativne prednosti.', 'img/article/img_1515970882.jpg', 'boks_čalić', '2017-12-24 23:20:08', '2018-01-16 16:36:29', 1, 3, 1),
+(1, 32, 7, 'zagreb', 'Nitko od nas ne dolazi da se uhljebi, tek smo se zagrijali i bit ćemo sve žešći!', 'Gotovo je postalo predvidljivo da ćemo ga toga dana negdje pročitati, čuti ili gledati. U medijima. Dok je bio igrač, 10-ak godina kao omladinac, a onda 20 kao profesionalac, Stipe Pletikosa nije bio često u eteru. I prije nego se upustio u igre prijestolja, slavni je Splićanin ušetao u naše domove i nogometnu zbilju kroz analitiku na javnoj televiziji. Nije da smo baš iznenađeni njegovom elokventnošću, osvježavajućim stylingom talijanskog utjecaja. Pogotovo nije iznenadio odmjerenošću, kako u kritičkom. tako i pohvalnom izrazu. Pletikosa nije nikad odavao dojam prznice, upale ega i onog koji nameće stav. Respektirat će svakog, ali i time što će lakoćom uvjerenja iznijeti svoj stav...Imate li štogod novog kazati s obzirom na mnoštvo teza koje ste iznijeli u brojnim intervjuima oko HNS-ove stvari?\n- Pa novo je što je HNS-ovo vodstvo odlučilo ubrzano razriješiti pitanje predsjednika za iduće četverogodišnje razdoblje. Ne znam kako drugima, ali meni je to jasan znak da smo kao tim ljudi koji žele raditi na promjenama upravljanja hrvatskim nogometom već napravili značajnu stvar. Da su u Kući nogometa procijenili da im nismo ozbiljna konkurencija, držali bi se najava kako će izborna Skupština biti na proljeće. I ovaj trijumfalizam koji sam primijetio kod nekih aktera u Savezu čini mi se kao da je odraz brige koju imaju za svoje pozicije…', 'img/article/img_1516287890.jpg', 'zg', '2017-11-27 13:40:00', '2018-01-28 23:09:11', 1, 25, 1),
+(2, 35, 5, 'STIŽU POJAČANJA U DINAMO', 'Tko može reći da ovo što on radi nije dobro? Pa lani su igrali Machado, Sammir..., Fernandes, a kakvi su bili rezultati?', 'Kakve su novosti u gornjem domu Maksimira? Kineska delegacija bila je nekoliko dana u Zagrebu, posjetila klub, a kad dođu kineski poslovnjaci na nogometni stadion, uvijek se razviju razna pitanja. Chengdu Sports Industry Company povezao se s Dinamom već prije mjesec i nešto dana kad je modra delegacija posjetila Kinu, razgovaralo se o omladinskoj školi, organizaciji kluba...  Sad su oni došli k nama, bili naši gosti i nema nekih novosti. Pokazali smo im našu školu, uvjete u kojima radimo, bili su na utakmici s Rudešom. Ne, nismo razgovarali ni o kakvoj vrsti sponzorstva ili nekog ulaganja, ostali smo na istim temama kao i ranije - izvijestio nas je glavni direktor Tomislav Svetina.\n\nToliko o tome, idemo na sportske aktualnosti.\n\nKako je vodstvo kluba općenito zadovoljno ovim mjesecima rada Marija Cvitanovića, rezultati su, nakon ispadanja iz Europe, odlični, prednost na ljestvici velika, no je li ispunio i onaj drugi cilj, razvoj igrača i napredak u igri?\n\n- Tko može nakon što trener i momčad nisu izgubili utakmicu u HNL-u, kad je prednost pred drugoplasiranim 12 bodova, reći da to nije dobro? O dojmu uvijek možemo pričati, može li i mora li bolje, ali opet, kad usporedimo ovu jesen s prošlom sezonom. Kad vidimo da su lani igrali Machado, Guilherme, Sammir, Fernandes..., a kakve su bile igre, pogotovo, kakvi su bili rezultati? Dakle, sve sam rekao.', 'img/article/img_1515970543.jpg', 'dinamo', '2017-12-03 08:54:42', '2018-01-28 23:05:31', 1, 14, 1),
+(8, 35, 5, 'OD PODNOŽJA DO VRHA SLJEMENA ZA 16 I POL MINUTA Pogledajte kako će izgledati nova žičara vrijedna čak 142 milijuna kuna!', 'Pripreme za gradnju nove žičare već su počele, a u Gradu planiraju i cijeli taj koridor kojim žičara prolazi urediti za rekreaciju građana', 'Start će biti na 276 metara nadmorske visine dok će gornja postaja biti na 1030 metara. Zagrepčani i turisti prevozit će se u 84 gondole, a u svaku gondolu moći će se smjestiti 10 ljudi.\n\nOd Donje do Gornje postaje na relaciji od oko 4 i pol kilometra, vozit će ukupno 16 i pol minuta. Ukupno će na trasi biti četri postaje, a prvi putnici prema najavama moći će uživati 1. kolovoza 2018. godine.\n\nUkratko, ovako u brojkama izgleda novi projekt Žičare Sljeme Zagreb čiji je idejni projekt jučer trebao biti predstavljen javnosti i za koji će se izdvojiti ukupno 142 milijuna kuna. Po onom što se moglo vidjeti, Zagreb će uistinu dobiti jednu od najmodernijih žičara u Europi. Pripreme za gradnju nove žičare već su počele, a kako je najavljivano kompletna gradnja odvijat će se u četiri faze.\n\nPrva i druga su već počele.', 'img/article/img_1515971063.jpg', 'sleme', '2017-12-24 12:48:44', '2018-01-28 22:54:49', 2, 12, 1),
+(11, 32, 14, 'Schaub: Cro Cop mi je priuštio najveće batine u životu, nakon toga sam shvatio da nisam pravi borac poput njega', 'U ožujku 2011. Brandan Schaub upisao je najveću pobjedu karijere pobjedivši Mirka Cro Cop Filipovića na UFC 128 priredbi. Za Cro Copa se radilo samo o još jednoj borbi, no za Schauba je to bio trenutak kada je prvi put počeo sumnjati u svoju strast i prednost MMA-u.', 'Nekoliko godina kasnije Schaub je odlučio završiti karijeru te je danas uspješan podcaster i komičar, no nikada neće zaboraviti susret s legendarnim hrvatskim borcem u kojem je shvatio da rizici i posljedice slobdone borbe nisu za svakoga.\n\n“Borba s Cro Copom se činila kao nužni korak. On je bio legenda i prilika da upišem veliku pobjedu”, prisjetio se Schaub borbe u intervjuu za dokumentarni serijal Retrospective. “No bio sam naivan i bahat te sam mislio kako ću ući u kavez i jednostavno ga pregaziti. Dragi bože, kako sam se prevario.”\n\n\n\nShaub je u konačnici slavo tehničkim nokautom u trećoj rundi, ali put do pobjede je imao svoju cijenu…\n\n“Slomio mi je nos na šesnaest mjesta i morao sam na operaciju. Imao sam šesnaest šavova na oku, četrnaest šavova na usni. Povraćao sam i bio u velikim bolovima.”\n\n“Nikad neću zaboraviti taj trenutak. On je stajao sav krvav, i nemojte zaboraviti da je u toj borbi bio nokautiran. Ali ja sam bio puno više razbijen, lice mi je bilo natečeno. Sjedili smo smo u backstageu. Ja sam povraćao od bolova, a njega su šivali…\n\nSve me boljelo i pogledao sam Cro Copa i rekao,’K vragu, što mi to radimo čovječe?’, a on me pogledao i odgovorio,’Ovo je život.’\n\nI tada sam se prvi put pitao,’Je li zaista tako? Je li, čovječe?’ I za njega jest. Njemu je to sve. No, za mene nije. Tada sam shvatio da nisam poput njega. Ja ne želim za ovo riskirati svoj život. Ovo nije moja strast. Njemu jest. On se još uvijek bori. On je apsolutna legenda. Meni uopće nije mjesto u oktogonu s njim. “\n', 'img/article/img_1515970830.jpg', 'crocop', '2017-12-24 23:07:36', '2018-01-28 18:20:45', 3, 1, 1),
+(12, 35, 14, 'Dosad su se naši boksači borili za strance, a sad će se boriti za Hrvatsku', 'BOKSAČKOJ ELITI U sljedećoj godini, ukupno osmoj sezoni Svjetske boksačke serije, imat ćemo svoju momčad u elitnom boksačkom natjecanju Međunarodne amaterske boksačke federacije', 'U sljedećoj godini, ukupno osmoj sezoni Svjetske boksačke serije (WSB), Hrvatska će imati svoju momčad u elitnom boksačkom natjecanju Međunarodne amaterske boksačke federacije (AIBA). Hrvati vitezovi, ili na engleskom jeziku Croatian Knights, debi će imati već početkom veljače u Italiji.\n\n- Mnogi nisu vjerovali kad su čuli za našu želju i aktivnosti po tom planu jer se radi o apsolutnom planetarnom vrhu. Međutim, uvijek ću naglasiti, nisam uspio ja ili Savez, uspjeli su naši boksači. Da njih nema, da nema njihovih uspjeha cijeli niz godina, pa onda i devet europskih i jedne svjetske medalje samo ove godine, ovakvo što ne bi bilo moguće - rekao je Bono Bošnjak, predsjednik HBS-a.\n\nSvitanje dobre priče\n\nNajveći mogući kompliment hrvatskom boksu iz Italije je odaslao Franco Falcinelli, predsjednik Europske boksačke federacije poručivši na mrežnim stranicama WSB-a:\n\n“Hrvatski vitezovi u ovo natjecanje donose sa sobom tradiciju ove velike nacije.”\n\nMalo je reći da uhu gode ovakve riječi najvišeg čovjeka europskog boksa i jednog od čelnika svjetskog.\n\n- Ovo je samo svitanje jedne dobre boksačke priče. Vjerujem da će ovo biti predstavljeno kao velik iskorak hrvatskog boksa - spomenuo je brigadni general Mladen Mikolčević, predsjednik Hrvatskih vitezova te dodao:\n\n- Dosad su se naši boksači borili u ovom natjecanju za strane momčadi od Italije preko Francuske, Velike Britanije do Kazahstana. Od sada će u ring za Hrvatsku.\n\nU dosadašnjim sezonama WSB-a pamtimo nastupe Alena Babića za Francuze, Luke Plantića i Josipa Bepa Filipija za Talijane, Hrvoja Sepa i Filipa Hrgovića za Francuze i Kazahstance, kao i Marka Čalića i Bojana Miškovića za Britance.\n\nIzbornik Leonard Pijetraj najbolje zna što znači WSB. Iza njega je petogodišnje iskustvo rada za Paris United (2 godine) te Astana Arlanse (3 godine), ali i podizanje trofeja.\n\nImamo svoje blago\n\n- Jako, jako dobro znam o kakvom se natjecanju radi. Čak sam najskeptičniji jer znam koliko je WSB zahtjevan. Naši će borci vidjeti da je velika razlika između boksanja tri ili kao u WSB-u pet rundi po tri minute. Sve vas molim da budete strpljivi - apelira izbornik, koji je glede sastava Hrvatskih vitezova spomenuo zasad tek sljedeće.\n\n- Sastav se još uvijek ne zna. Potražit ćemo strana pojačanja (Bjelorusija, Rumunjska, Bugarska) samo u nižim kategorijama, koje nam nisu toliko kvalitetno pokrivene. Ostalo ćemo imati hrvatske boksače. Možda niste znali, ali prijašnjih sezona Azerbajdžan je imao svoju momčad u WSB-u, ali sve odreda strane borce. Oni nemaju svojih boksača. Prije dvije godine Astani su u goste stigli Nijemci. Svi njihovi boksači govorili su ruski! Sve sam time rekao. Mi imamo svoje mladiće i to je naše najveće blago - naglasio je izbornik.\n\nSportski direktor HBS-a general Ante Prkačin efektno je zaključio.\n\n- Boks je najviteškiji borilački sport i zato mislim da mi Hrvati tu imamo komparativne prednosti.', 'img/article/img_1515970882.jpg', 'boks_čalić', '2017-12-24 23:20:08', '2018-01-18 02:34:43', 1, 3, 1),
 (14, 35, 9, 'Leustekova staza-Sljeme', 'Leustekova staza-Sljeme', 'Planinarska staza 14, poznata još pod imenom Leustekova staza prema Albinu Leusteku. Albin Leustek bio je zagrebački šumar koji je puno doprinio uređenju Medvednice (slika desno). Po njemu je nazvan i izvor Šumarev grob, mjesto gdje je Leustek osobno želio biti sahranjen. Ipak, želja mu u tom pogledu nije bila ispunjena i sahranjen je, prema želji obitelji, na groblju u Šestinama odmah pored crkve Sv. Mirka.\n\nStaza 14 jedna je od najpopuarnijih i najlakših staza za penjanje na Medvednici. Dijagram visine staze prikazuje vrlo ujednačen nagib uspona tijekom cijele trase puta. Na karti je tanjom crvenom linijom prikazana i staza 15 kao lijevi odvojak staze 14, a također postoji i manja stazica među njima gdje je moguć prijelaz s jedne na drugu stazu.\n\n\n\nPristup tramvajem\n\nTramvajem broj 15 s Mihaljevca se dolazi do predzadnje stanice Gračani (može i do zadnje stanice na Gračansko Dolje kod Tunela). Zatim se kreće prema sjeveru u Medvednicu. U blizini su temelji nekadašnje vile Rebar. Negdje skoro na pola puta (3,2 km) nalazi se planinarsko sklonište \"Adolfovac\". Nakon odmorišta šumski put ide dalje prema Činovničkoj livadi, dva puta presijeca asfaltiranu sljemensku cestu, pred sam kraj staze prolazi pored sljemenskog zdenca i dolazi do Stare lugarnice, Doma \"Željezničar\" i na koncu do Činovničke livade.\n\n\nStaza 14 jedna je od najpopuarnijih i najlakših staza za penjanje na Medvednici. Dijagram visine staze prikazuje vrlo ujednačen nagib uspona tijekom cijele trase puta. \n\nNa vrhu se nalazi televizijski toranj, gornja stanica žičare Crvenog spusta i restoran „Vidikovac“.\n\nS terase restorana je lijep pogled prema sjeverozapadu i zapadu. Lijepo se vidi dobar dio Hrvatskog Zagorja, a kada je dobra vidljivost, može se vidjeti i Triglav.', 'img/article/img_1515970904.JPG', 'Leustekova staza-Sljeme', '2018-01-09 16:14:44', '2018-01-14 23:01:45', 3, 1, 1),
 (15, 35, 13, 'Bitka za Rim: siječanj-lipanj 1944.', 'Bitka za Rim: siječanj-lipanj 1944.', 'Nakon osvajanja Sicilije i južne Italije te sloma talijanskog fašizma glavni cilj savezničkih snaga na južnom bojištu postao je Rim. Već krajem 1943. godine Saveznici su se nalazili 120-130 km udaljeni od Vječnoga grada, ali tu su započinjali njihovi problemi. Naime, na putu im se krajem prosinca 1943. ispriječila njemačka obrambena linija «Gustav», prevučena preko čitave širine Apeninskog poluotoka baš na njegovom najužem dijelu. Zemljište je bilo fantastično za obranu: brdovito, pošumljeno te išarano riječnim tokovima, planinskim potocima i vododerinama. Radovi na utvrđenjima počeli su još ljeti tako da su do zime, kada je Wehrmacht u povlačenju stigao do linije, ova već bila spremna. Bitka za Rim je svojim najvećim dijelom postala bitkom za liniju «Gustav», koja je pak postala općepoznata zahvaljujući operacijama protiv Monte Cassina i mostobranu kod Anzia. Tu su se njemačka grupa armija C, pod zapovjedništvom feldmaršala Alberta Kesselringa i saveznička 15. grupa armija pod zapovjedništvom generala Harolda Alexandera našle ukliještene u polugodišnjem klinču.', 'img/article/img_1515970918.jpeg', 'Bitka za Rim: siječanj-lipanj 1944.', '2018-01-10 15:08:31', '2018-01-14 23:01:59', 1, 0, 1),
-(18, 35, 7, 'test', 'test', 'test', 'img/article/img_1515970938.jpg', 'test', '2018-01-14 18:51:06', '2018-01-16 16:36:14', 1, 0, 0),
-(23, 35, 8, 'Operacija Maslenica', 'Operacija Maslenica', 'Operacija Maslenica', 'img/article/img_1515970949.jpg', 'Operacija Maslenica', '2018-01-14 19:07:20', '2018-01-14 23:02:32', 3, 1, 1);
+(18, 35, 7, 'test', 'test', 'test', 'img/article/img_1515970938.jpg', 'test', '2018-01-14 18:51:06', '2018-01-28 23:09:17', 1, 0, 1),
+(23, 35, 8, 'Operacija Maslenica', 'Operacija Maslenica', 'Operacija Maslenica je oslobodilačka operacija Oružanih Snaga Republike Hrvatske i pripadnika Ministarstva unutrašnjih poslova RH, protiv vojnih snaga tzv. \"Republike Srpske Krajine\" koje su na području Zadra do tada držale okupiranim područje koje je prekidalo kopnenu komunikaciju Dalmacije s područjima pod kontrolom legitimnih vlasti Republike Hrvatske u preostalom dijelu zemlje. Vojna je akcija planirana i izvedena u razdoblju od 6. do 27. siječnja 1993., dok su borbe na terenu počele 22. siječnja 1993. u 6 sati. Tijekom akcije hrvatski vojnici i policajci oslobodili su zadarsko zaleđe, Masleničko ždrilo i zrakoplovnu luku Zemunik, a naknadno je oslobođena i brana Peruća, koju su pobunjeni Srbi neuspješno digli u zrak.\n\nNapredovanje hrvatskih snaga u prvim danima izazvalo je \"rasulo\" (termin iz srpskog vojnog izvještaja) u postrojbama srpske strane, koje su potom konsolidirane uz pomoć dragovoljaca pristiglih iz Srbije (Arkanovi \"Tigrovi\", pripadnici Srpske radikalne stranke) i jedinica pridošlih iz sastava vojne sile bosanskih Srba (\"Vukovi s Vučjaka\" i dr.); protunapadne aktivnosti koje su potom Srbi uspjeli izvesti nisu međutim uspjele potisnuti hrvatske snage natrag prema Zadru. Dragovoljci pristigli iz Bosne i Srbije, koji su odmah bačeni u teške borbe s OS RH, u velikom broju dezertiraju već nakon desetak dana.\nOperaciju su planirali i izveli generali Janko Bobetko, Ante Gotovina, Ante Roso, Mirko Norac i Mladen Markač. U izvedbi operacije Maslenica bile su angažirane sve grane oružanih snaga, a sudjelovale su postrojbe tadašnjeg Zbornog područja Split (4. gardijska brigada \"Pauci\", taktičke grupe 112. i 113., 126. brigada, 7. domobranska pukovnija, 40. inženjerijska bojna, 72. bojna VP), specijalne postrojbe MUP-a, dijelovi 9., 3., 2., i 1. gardijske brigade, dijelovi postrojbi GSHV-a, te Središnjica elektroničkog djelovanja Split, kopnene, diverzantske i pomorske snage HRM-a i eskadrila helikoptera HRZ-a. [8] [9]\n\nDruga strana, kojoj su na čelu bili Mile Novaković (zapovjednik 7. korpusa Srpske Vojske Krajine, Milan Đilas (zapovjednik 7. korpusa SVK), Jovan Dopuđ (zapovjednik 4. lake brigade), Dragan Harambašić (zapovjednik 75. motorizirane brigade), Dragan Tanjga (zapovjednik ad hoc formirane \"1. operativne grupe\") i Momčilo Bogunović (zapovjednik 92. motorizirane brigade, poginuo 1. veljače 1993.) je uočila grupiranje hrvatskih snaga, ali nije uspjela pravovremeno organizirati obranu koja bi spriječila napredovanje OS RH.[10]\nNeprijatelj je u svojim nakanama komadanja Hrvatske 1991. godine gotovo i uspio, te je upravo na području Novskoga ždrila već u početnim silovitim napadima komunikacijski presjekao Hrvatsku na dva dijela ugrozivši čitavo Hrvatsko primorje. Time je zapriječio prometnu i gospodarsku povezanost između sjevera i juga Hrvatske a čitav se promet otežano odvijao preko otoka Paga gdje je uslijed nevremena često bio u prekidu trajektni promet. Hrvatski puk u Dalmaciji, ali i onaj u Herceg Bosni, kojem se u to vrijeme jedino tim putem mogla dostavljati pomoć, bio je doveden u gotovo nemoguću situaciju.\n\nU vremenu pred izvođenje Operacije Maslenica, Hrvatska je nastojala brojnim pregovorima, potpisanim sporazumima i primirjima s pobunjenim Srbima, potaknuti dogovorno rješavanje sukoba; međutim su dogovori između Hrvatske koja je htjela uspostaviti suverenitet na čitavom državnom teritoriju i četnika koji su težili \"prisajedinjenju\" Srbiji iz očitih razloga bili neuspješni.[11] U razdoblju nakon Sarajevskog primirja 1992. god., srpski pobunjenici su nastavili s ubojstvima, maltretiranjem i protjerivanjem preostalih Hrvata iz zadarskog zaleđa, pljačkajući njihovu imovinu i paleći kuće.[12] U tome ih nije spriječila niti prisutnost međunarodnih snaga UNPROFOR-a, pristiglih osam mjeseci ranije, koje su prema Vanceovom planu trebale pružiti sigurnost i zaštitu preostalim Hrvatima u UNPA zonama, osigurati prekid vatre, povratak prognanika u njihove domove na područje koja nisu bile pod nadzorom hrvatskih vlasti, te povratak tzv. ružičastih zona pod nadzor hrvatskih vlast.[13]\n\nCilj operacije\nCilj operacije bio je povezati sjever s jugom Hrvatske pravcem Zadar – Maslenica – Karlobag i odbaciti srpske snage iz Rovanjske, Novskog ždrila, Maslenice i od magistrale Posedarje – Zadar. Akcija je bila ključna za obranu i daljnja vojna djelovanja Hrvatske vojske.\n', 'img/article/img_1515970949.jpg', 'Operacija Maslenica', '2018-01-14 19:07:20', '2018-01-28 18:22:40', 3, 2, 1);
 
 -- --------------------------------------------------------
 
@@ -82,14 +82,15 @@ INSERT INTO `category_article` (`id_cat`, `name`, `active`, `parent`) VALUES
 (3, 'Povijest', 1, NULL),
 (4, 'Avantura', 1, NULL),
 (5, 'Nogomet', 1, 1),
-(6, 'Kosarka', 0, 1),
+(6, 'Kosarka', 1, 1),
 (7, 'PHP', 1, 2),
 (8, 'Domovinski rat', 1, 3),
 (9, 'Planinarenje', 1, 4),
 (12, 'Rukomet', 1, 1),
 (13, 'Drugi sv. rat', 1, 3),
 (14, 'Boks', 1, 1),
-(15, 'Rijeke', 1, 4);
+(15, 'Rijeke', 1, 4),
+(16, 'UFC', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -117,7 +118,7 @@ INSERT INTO `comment` (`id_c`, `fk_id_u`, `fk_id_a`, `username`, `email`, `comme
 (17, NULL, 2, 'vdsv', 'dv@b.c', 'supeer', '2017-12-05 17:46:58', 1),
 (18, NULL, 2, 'marko', 'marko@f.c', 'Ovo je odlično, samo naprijed!', '2017-12-06 01:08:58', 1),
 (19, NULL, 2, 'pero', 'pero@d.c', 'Članak je super, također bi nadodao da, nismo razgovarali ni o kakvoj vrsti sponzorstva ili nekog ulaganja, ostali smo na istim temama kao i ranije - izvijestio nas je glavni direktor Tomislav Svetina. Toliko o tome, idemo na sportske aktualnosti. Kako je vodstvo kluba općenito zadovoljno ovim mjesecima rada Marija Cvitanovića, rezultati su, nakon ispadanja iz Europe, odlični, prednost na ljestvici velika, no je li ispunio i onaj drugi cilj, razvoj igrača i napredak u igri?', '2017-12-06 01:12:26', 1),
-(20, 28, 1, 'm', 'm@m.m', 'Pa novo je što je HNS-ovo vodstvo odlučilo ubrzano razriješiti pitanje predsjednika za iduće četverogodišnje razdoblje. Ne znam kako drugima, ali meni je to jasan znak da smo kao tim ljudi koji žele raditi na promjenama upravljanja hrvatskim nogometom već napravili značajnu stvar. Da su u Kući nogometa procijenili da im nismo ozbiljna konkurencija, držali bi se najava kako će izborna Skupština biti na proljeće. I ovaj trijumfalizam koji sam primijetio kod nekih aktera u Savezu čini mi se kao da je odraz brige koju imaju za svoje pozicije…', '2017-12-06 01:15:09', 1),
+(20, 35, 1, 'm', 'm@m.m', 'Pa novo je što je HNS-ovo vodstvo odlučilo ubrzano razriješiti pitanje predsjednika za iduće četverogodišnje razdoblje. Ne znam kako drugima, ali meni je to jasan znak da smo kao tim ljudi koji žele raditi na promjenama upravljanja hrvatskim nogometom već napravili značajnu stvar. Da su u Kući nogometa procijenili da im nismo ozbiljna konkurencija, držali bi se najava kako će izborna Skupština biti na proljeće. I ovaj trijumfalizam koji sam primijetio kod nekih aktera u Savezu čini mi se kao da je odraz brige koju imaju za svoje pozicije…', '2017-12-06 01:15:09', 1),
 (21, NULL, 1, 'nadimak', 'i@d.v', 'kaj ima\n\n\nsuper\n\n\n\n\ndobro', '2017-12-06 09:09:58', 1),
 (22, NULL, 1, 'nadimak', 'g@g.v', 'jel radi?', '2017-12-06 09:15:14', 1),
 (24, NULL, 1, 'test', 't@t.com', 'Komentar...', '2017-12-09 11:46:46', 1),
@@ -127,7 +128,9 @@ INSERT INTO `comment` (`id_c`, `fk_id_u`, `fk_id_a`, `username`, `email`, `comme
 (29, 35, 1, 'Marko', 'm@m.m', 'odličan članak', '2018-01-09 15:34:04', 1),
 (30, NULL, 8, 'nadimak', 'uf@gl.com', 'ajmooo', '2018-01-09 22:59:20', 1),
 (31, 32, 12, 'Benjo', 'benjo@benjo.hr', 'super članak', '2018-01-16 17:36:44', 1),
-(32, 32, 8, 'Benjo', 'benjo@benjo.hr', 'test', '2018-01-16 20:00:37', 1);
+(32, 32, 8, 'Benjo', 'benjo@benjo.hr', 'test', '2018-01-16 20:00:37', 1),
+(33, 35, 8, 'Marko', 'm@m.m', 'test', '2018-01-18 15:49:02', 1),
+(34, 35, 8, 'Marko', 'm@m.m', 'test', '2018-01-28 23:51:34', 1);
 
 -- --------------------------------------------------------
 
@@ -195,6 +198,10 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 (160, 1),
 (180, 1),
 (181, 1),
+(188, 1),
+(189, 1),
+(190, 1),
+(224, 1),
 (1, 2),
 (2, 2),
 (15, 2),
@@ -212,6 +219,31 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 (152, 2),
 (159, 2),
 (166, 2),
+(193, 2),
+(194, 2),
+(197, 2),
+(202, 2),
+(203, 2),
+(204, 2),
+(205, 2),
+(206, 2),
+(207, 2),
+(208, 2),
+(209, 2),
+(210, 2),
+(211, 2),
+(212, 2),
+(213, 2),
+(214, 2),
+(215, 2),
+(216, 2),
+(217, 2),
+(218, 2),
+(219, 2),
+(220, 2),
+(221, 2),
+(222, 2),
+(223, 2),
 (12, 8),
 (13, 8),
 (14, 8),
@@ -271,6 +303,16 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 (177, 8),
 (178, 8),
 (179, 8),
+(184, 8),
+(185, 8),
+(186, 8),
+(187, 8),
+(191, 8),
+(192, 8),
+(198, 8),
+(199, 8),
+(200, 8),
+(201, 8),
 (65, 11),
 (66, 11),
 (81, 11),
@@ -283,6 +325,7 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 (93, 11),
 (94, 11),
 (95, 11),
+(183, 11),
 (67, 12),
 (68, 12),
 (69, 12),
@@ -294,6 +337,7 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 (171, 12),
 (172, 12),
 (173, 12),
+(182, 12),
 (73, 14),
 (74, 14),
 (82, 14),
@@ -324,7 +368,9 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 (162, 23),
 (163, 23),
 (167, 23),
-(176, 23);
+(176, 23),
+(195, 23),
+(196, 23);
 
 -- --------------------------------------------------------
 
@@ -335,17 +381,20 @@ INSERT INTO `log_views` (`id_log`, `fk_id_a`) VALUES
 CREATE TABLE `role_editor` (
   `id_re` int(11) UNSIGNED NOT NULL,
   `fk_id_cat` int(11) UNSIGNED NOT NULL,
-  `fk_id_u` int(11) UNSIGNED NOT NULL
+  `fk_id_u` int(11) UNSIGNED NOT NULL,
+  `active` int(11) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `role_editor`
 --
 
-INSERT INTO `role_editor` (`id_re`, `fk_id_cat`, `fk_id_u`) VALUES
-(1, 1, 32),
-(2, 2, 32),
-(3, 4, 29);
+INSERT INTO `role_editor` (`id_re`, `fk_id_cat`, `fk_id_u`, `active`) VALUES
+(1, 1, 32, 1),
+(2, 2, 32, 1),
+(3, 4, 29, 1),
+(4, 1, 37, 1),
+(13, 3, 37, 1);
 
 -- --------------------------------------------------------
 
@@ -395,15 +444,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_u`, `fk_id_r`, `username`, `email`, `password`, `fname`, `lname`, `address`, `city`, `post_number`, `country`, `date_registration`, `date_last_change`, `active`) VALUES
-(1, 3, 'admin', 'admin@admin.com', '$2y$12$nO5nA9ncrOUN1ofrW53BG.KUvB1swtCx5.iQm6DB9pFurYDhsL8m.', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2017-12-08 09:41:15', 1),
-(28, 1, 'm', 'm@m.mm', '$2y$12$nO5nA9ncrOUN1ofrW53BG.KUvB1swtCx5.iQm6DB9pFurYDhsL8m.', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2018-01-14 19:15:28', 1),
-(29, 2, 'Gabrijel', 'gabrijel@mail.com', '$2y$12$QQcB187yGlAMpV3IR7N7SOyyTQd6GVnEZcGsC0Vr1lQsfOyYGy9DW', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2017-12-14 19:11:30', 1),
-(30, 1, 'dsada', 'dsad@sds.com', '$2y$12$F0LMVgUtOJ/PWCXWYLHZn.xcKMRihh8ht4TbBBAldNtQnjEDiHm8G', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2017-12-14 15:37:41', 0),
-(31, 3, 'adminčina', 'ad@a.a', '$2y$12$G/4QLs6T.FogI9WjRbliYu6KaRXejsGhoqhIHpJlP8wE.QncgxxV2', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2018-01-16 19:04:20', 1),
+(29, 2, 'Gabrijel', 'gabrijel@mail.com', '$2y$12$QQcB187yGlAMpV3IR7N7SOyyTQd6GVnEZcGsC0Vr1lQsfOyYGy9DW', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2018-01-23 22:47:39', 0),
 (32, 2, 'Benjo', 'benjo@benjo.hr', '$2y$12$JrnD3Ffey/r3rxoHHUo3ze1nEbYZthXKSotzAgaf08LYs7VC7w18S', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2018-01-16 19:04:25', 1),
-(33, 1, 't@t.t', 'teo@t.t', '$2y$12$77VIDnlOSf0wRL1gBDMQX.CY9PpNuMJ2dkhFjWap7lsZpTtxzgPfm', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-08 10:41:15', '2017-12-14 15:38:23', 1),
-(34, 2, 'mrki', 'marko@marko.comm', '$2y$12$bD2qQY7S00yLcPJr2PMn7eS8t7uORry4ej2E//3sngIvTZEqG6O0W', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-15 03:16:52', '2018-01-16 19:05:19', 1),
-(35, 3, 'Marko', 'm@m.m', '$2y$12$JrnD3Ffey/r3rxoHHUo3ze1nEbYZthXKSotzAgaf08LYs7VC7w18S', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-25 12:57:01', '2017-12-25 11:57:41', 1);
+(35, 3, 'Marko', 'm@m.m', '$2y$12$JrnD3Ffey/r3rxoHHUo3ze1nEbYZthXKSotzAgaf08LYs7VC7w18S', NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-25 12:57:01', '2017-12-25 11:57:41', 1),
+(36, 3, 'Glava', 'admin@admin.com', '$2y$12$nOUAxfkxijTJVefUVuXP/u4fB04Q6wQ6dwrtic0B46CzW0PNFI9xO', NULL, NULL, NULL, NULL, NULL, NULL, '2018-01-18 03:37:41', '2018-01-18 02:38:13', 1),
+(37, 2, 'Pero', 'pero@pero.com', '$2y$12$2RVl.w5v10UlIyDL3zk2.uH.GbR6Z/Rzw4IM/cBHQR0D83d3nKZiS', NULL, NULL, NULL, NULL, NULL, NULL, '2018-01-18 03:43:29', '2018-01-18 02:46:48', 1);
 
 --
 -- Indexes for dumped tables
@@ -476,25 +521,25 @@ ALTER TABLE `article`
 -- AUTO_INCREMENT for table `category_article`
 --
 ALTER TABLE `category_article`
-  MODIFY `id_cat` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_cat` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `comment`
 --
 ALTER TABLE `comment`
-  MODIFY `id_c` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id_c` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `log_views`
 --
 ALTER TABLE `log_views`
-  MODIFY `id_log` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=182;
+  MODIFY `id_log` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=225;
 
 --
 -- AUTO_INCREMENT for table `role_editor`
 --
 ALTER TABLE `role_editor`
-  MODIFY `id_re` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_re` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `role_user`
@@ -506,7 +551,7 @@ ALTER TABLE `role_user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_u` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id_u` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- Constraints for dumped tables
