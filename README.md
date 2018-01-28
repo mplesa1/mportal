@@ -7,7 +7,7 @@ Web aplikacija za objavljivanje i uređivanje članaka, login/registracija koris
               -dodavanje i administracija kategorija članaka 
               -dodavanje i administracija rola editora 
               -administracija korisnika
-              -editor mogućnost dodavanja i uređivanja članaka samo za kategorije članaka koje ima dodjeljenje 
+              -editor mogučnost dodavanja i uređivanja članaka samo za kategorije članaka koje ima dodjeljenje 
 
 # UPUTE
 1. Važno je da imate instaliran xampp, wampp ili neki drugi lokalni server sa MySQL-om
